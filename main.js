@@ -98,4 +98,5 @@ function clearTags() {
     while (ss.firstChild) {
         ss.removeChild(ss.firstChild);
     }
+
 }
