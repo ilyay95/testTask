@@ -1,0 +1,140 @@
+html {
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 70px;
+}
+
+.block {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 1%;
+    width: 200px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    margin-top: 1%;
+    width: 135%;
+    height: 30%;
+    background: #fcf6f2;
+    border: 1px solid #999999;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid #999999;
+    background: #e4d8d1;
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    padding: 6px;
+    margin-top: 1%;
+    width: 50%;
+    height: 30%;
+    border-radius: 6px;
+}
+
+#ulId {
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+
+li>button {
+    float: right;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    border-color: #8f8b8b;
+    background: #eea6a6;
+    opacity: .3;
+}
+
+li>button:not([disabled]):hover {
+    opacity: 1;
+    background: red;
+}
+
+li>button:disabled {
+    background: #DADAD9;
+}
+
+.input {
+    display: inline-flex;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.input input,
+.input .addtag {
+    display: block;
+    padding: 8px 10px;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.input input {
+    border: 1px solid #ccc;
+    border-right: 0;
+    border-radius: 6px 0 0 6px;
+}
+
+.input .addtag {
+    border: 1px solid #ccc;
+    border-radius: 0 6px 6px 0;
+    background: #28a75d;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.addtag:not([disabled]):hover {
+    background: #31d156;
+}
+
+.clearTagsForm>button:not([disabled]):hover {
+    background: #31d156;
+}
+
+.clearTagsForm>button:disabled {
+    background: #DADAD9;
+}
+
+.addtag:disabled {
+    background: #DADAD9;
+}
+
+.formCheckbox {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    float: left;
+}
+
+.clearTagsForm {
+    text-align: left;
+}
+
+.clearTagsForm>button {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #28a75d;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
